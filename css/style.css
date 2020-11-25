@@ -1,0 +1,110 @@
+/* Font Awesome Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* Utility Classes */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0rem 1rem;
+}
+.text-primary {
+  color: #00A1E5;
+}
+.btn {
+  border: 0;
+  cursor: pointer;
+  display:inline;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0rem;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.5px;
+  /* font-weight: bold; */
+}
+
+.btn-primary {
+  background-color: #00A1E5;
+}
+.current {
+  font-weight: bold;
+}
+.h1-display {
+  font-size: 4rem;
+}
+.lead {
+  font-size: 1.5rem;
+}
+
+/* Header Section */
+header {
+  background: url(../img/Hero_Car_Image.jpg) no-repeat center center/cover;
+  min-height: calc(100vh - 80px);
+  color: #fff;
+  
+}
+
+/* nav section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem
+}
+nav .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+nav .nav .list{
+  display: flex;
+  list-style: none;
+}
+nav .nav .list li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0.7rem;
+}
+nav .nav .list li a:hover {
+  color: #f4f4f4;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 60vh;
+}
+
+/* FOOTER */
+#footer {
+  background: #000;
+  color: #fff;
+  /* height: 80px; */
+  padding: 0.8rem;
+}
+#footer ul {
+  display: flex;
+  justify-content: space-between;
+
+}
